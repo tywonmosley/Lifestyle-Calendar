@@ -1,0 +1,53 @@
+{
+  "shapes" : [
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"image\",\n  \"position\" : \"{40, 55.5}\",\n  \"angle\" : 0,\n  \"size\" : \"{276, 149}\",\n  \"identifier\" : \"125E408E-048D-45D8-A4AB-D1B7AFA49566\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"image\" : \"4l1zcx2q\",\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"image\",\n  \"position\" : \"{432.5, 56.5}\",\n  \"angle\" : 0,\n  \"size\" : \"{355, 307}\",\n  \"identifier\" : \"65FEDC38-8FBF-4192-B8A6-C38A1F7BE136\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"textVerticalAlignment\" : 0\n  },\n  \"image\" : \"sihwcdmu\",\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "connector",
+      "attrs" : "{\n  \"isRelative\" : false,\n  \"points\" : [\n    {\n      \"point\" : \"{337.9765625, 92.1953125}\",\n      \"axis\" : 1\n    },\n    {\n      \"point\" : \"{371.65625, 220.4375}\",\n      \"axis\" : 2\n    },\n    {\n      \"point\" : \"{400.91015625, 348.6796875}\",\n      \"axis\" : 1\n    }\n  ],\n  \"shape\" : \"connector\",\n  \"targetPoint\" : \"{430.1640625, 348.6796875}\",\n  \"identifier\" : \"60F84D15-8142-4FB8-BEA9-665E9BAF663E\",\n  \"tag\" : 0,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"themeStyle\" : \"edge_11\",\n  \"isTemplate\" : false,\n  \"privateStyle\" : {\n    \"connectorMode\" : 2,\n    \"crossStyle\" : \"round\"\n  },\n  \"exitPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0, 0}\"\n  },\n  \"sourcePoint\" : \"{304.296875, 92.1953125}\",\n  \"entryPoint\" : {\n    \"offset\" : \"{0, 0}\",\n    \"direction\" : 0,\n    \"location\" : \"{0.45759737318840582, -0.25372273489932884}\"\n  }\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"layout\" : \"group\",\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{40, 55.5}\",\n  \"angle\" : 0,\n  \"size\" : \"{747.5, 308}\",\n  \"identifier\" : \"82131B27-1682-4DE0-9C4B-C04CA84A00CF\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"style_11\",\n  \"privateStyle\" : {\n    \"strokeMode\" : 0,\n    \"fillMode\" : 0\n  },\n  \"isRelative\" : false\n}",
+      "children" : "[\n  \"125E408E-048D-45D8-A4AB-D1B7AFA49566\",\n  \"65FEDC38-8FBF-4192-B8A6-C38A1F7BE136\",\n  \"60F84D15-8142-4FB8-BEA9-665E9BAF663E\"\n]"
+    }
+  ],
+  "frame" : [
+    [
+      0,
+      0
+    ],
+    [
+      827,
+      1169
+    ]
+  ],
+  "terminals" : {
+    "60F84D15-8142-4FB8-BEA9-665E9BAF663E" : [
+      "125E408E-048D-45D8-A4AB-D1B7AFA49566",
+      "null"
+    ]
+  },
+  "design" : {
+    "connectorPathStyle" : "rounded",
+    "themeName" : "office",
+    "paper" : {
+      "rightMargin" : 20,
+      "bottomMargin" : 20,
+      "topMargin" : 20,
+      "name" : "a4",
+      "leftMargin" : 20,
+      "ori" : true
+    },
+    "autoFrame" : true,
+    "showPageMarker" : true
+  },
+  "showsGrids" : true,
+  "version" : "100"
+}

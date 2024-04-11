@@ -1,0 +1,148 @@
+{
+  "design" : {
+    "auto_frame" : true,
+    "connector_path_style" : "rounded",
+    "paper" : {
+      "bottom_margin" : 20,
+      "left_margin" : 20,
+      "name" : "a4",
+      "ori" : true,
+      "right_margin" : 20,
+      "top_margin" : 20
+    },
+    "show_page_marker" : true,
+    "theme_name" : "office"
+  },
+  "editor_version" : "252",
+  "frame" : "{{0, 0}, {827, 1169}}",
+  "shapes" : {
+    "childrens" : {
+      "82131B27-1682-4DE0-9C4B-C04CA84A00CF" : [
+        "125E408E-048D-45D8-A4AB-D1B7AFA49566",
+        "65FEDC38-8FBF-4192-B8A6-C38A1F7BE136",
+        "60F84D15-8142-4FB8-BEA9-665E9BAF663E"
+      ]
+    },
+    "connections" : {
+      "60F84D15-8142-4FB8-BEA9-665E9BAF663E" : [
+        "125E408E-048D-45D8-A4AB-D1B7AFA49566",
+        "free"
+      ]
+    },
+    "connectors" : [
+      {
+        "entry_point" : {
+          "direction" : 0,
+          "location" : "{0.45759737318840582, -0.25372273489932884}",
+          "offset" : "{0, 0}"
+        },
+        "exit_point" : {
+          "direction" : 0,
+          "location" : "{0, 0}",
+          "offset" : "{0, 0}"
+        },
+        "identifier" : "60F84D15-8142-4FB8-BEA9-665E9BAF663E",
+        "is_locked" : false,
+        "is_relative" : false,
+        "is_template" : false,
+        "points" : [
+          {
+            "axis" : 1,
+            "point" : "{337.9765625, 92.1953125}"
+          },
+          {
+            "axis" : 2,
+            "point" : "{371.65625, 220.4375}"
+          },
+          {
+            "axis" : 1,
+            "point" : "{400.91015625, 348.6796875}"
+          }
+        ],
+        "private_style" : {
+          "connector_mode" : 2,
+          "cross_style" : "round"
+        },
+        "shape" : "connector",
+        "source_point" : "{304.296875, 92.1953125}",
+        "tag" : 0,
+        "target_point" : "{430.1640625, 348.6796875}",
+        "theme_style" : "edge_11",
+        "value" : {
+          "labels" : [
+
+          ]
+        },
+        "visible" : true
+      }
+    ],
+    "nodes" : [
+      {
+        "angle" : 0,
+        "connectable" : true,
+        "identifier" : "82131B27-1682-4DE0-9C4B-C04CA84A00CF",
+        "is_locked" : false,
+        "is_relative" : false,
+        "is_template" : false,
+        "layout" : "group",
+        "lock_aspect_ratio" : false,
+        "position" : "{40, 55.5}",
+        "private_style" : {
+          "fill_mode" : 0,
+          "stroke_mode" : 0
+        },
+        "shape" : "rect",
+        "size" : "{747.5, 308}",
+        "tag" : 0,
+        "theme_style" : "style_11",
+        "value" : "",
+        "visible" : true
+      },
+      {
+        "angle" : 0,
+        "connectable" : true,
+        "identifier" : "125E408E-048D-45D8-A4AB-D1B7AFA49566",
+        "image" : "4l1zcx2q",
+        "is_locked" : false,
+        "is_relative" : false,
+        "is_template" : false,
+        "lock_aspect_ratio" : false,
+        "position" : "{40, 55.5}",
+        "private_style" : {
+          "text_vertical_alignment" : 0
+        },
+        "shape" : "image",
+        "size" : "{276, 149}",
+        "tag" : 0,
+        "theme_style" : "style_11",
+        "value" : "",
+        "visible" : true
+      },
+      {
+        "angle" : 0,
+        "connectable" : true,
+        "identifier" : "65FEDC38-8FBF-4192-B8A6-C38A1F7BE136",
+        "image" : "sihwcdmu",
+        "is_locked" : false,
+        "is_relative" : false,
+        "is_template" : false,
+        "lock_aspect_ratio" : false,
+        "position" : "{432.5, 56.5}",
+        "private_style" : {
+          "text_vertical_alignment" : 0
+        },
+        "shape" : "image",
+        "size" : "{355, 307}",
+        "tag" : 0,
+        "theme_style" : "style_11",
+        "value" : "",
+        "visible" : true
+      }
+    ],
+    "root_shapes" : [
+      "82131B27-1682-4DE0-9C4B-C04CA84A00CF"
+    ]
+  },
+  "shows_grids" : true,
+  "version" : "100"
+}
