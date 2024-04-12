@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "seed": "node prisma/seed.js"
+    "seed": "node prisma/seed.js",
+    "start": "node index.js",
+    "start:dev":"nodemon index.js"
   },
   "author": "Tywon Mosley",
   "license": "ISC",
