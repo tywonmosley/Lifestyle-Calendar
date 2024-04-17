@@ -1,10 +1,28 @@
-const prisma = require('./index.js')
+const prisma = require("./index.js");
 
-const checkUserDetails = (username, email) => {
-return prisma.users
+const checkUserDetails = async (username, email) => {
+  const userName = await prisma.users.findUnique({
+    where: {
+      username,
+    },
+  });
+
+  const userEmail = await prisma.users.findUnique({
+    where: {
+      email,
+    },
+  });
+
+return !!(userName || userEmail);
+};
+
+const createUser = (userData) => {
+    return prisma.users.create({
+        data: userData,
+    })
 };
 
 module.exports = {
-checkUserDetails
-
+  checkUserDetails,
+  createUser,
 };

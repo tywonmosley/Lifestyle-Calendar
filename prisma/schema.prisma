@@ -4,15 +4,18 @@
 // Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
+// Define the Prisma generator for generating the Prisma Client for JavaScript
 generator client {
   provider = "prisma-client-js"
 }
 
+// Define the data source connecting to a PostgreSQL database
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
+// Define the Users model with various fields
 model Users {
   user_id    Int    @id @default(autoincrement())
   username   String @unique
@@ -23,17 +26,18 @@ model Users {
   events     Events[] // Adding the reverse relation field
 }
 
+// Define the Events model with various fields
 model Events {
-  event_id Int @id @default(autoincrement())
-  name String
+  event_id    Int      @id @default(autoincrement())
+  name        String
   description String?
-  start_date DateTime
-  end_date DateTime
+  start_date  DateTime
+  end_date    DateTime
   event_image String?
-  location String
-  frequency String?
-  category String?
+  location    String
+  frequency   String?
+  category    String?
   contact_info String
-  user_id Int
-  user Users @relation(fields: [user_id], references: [user_id])
+  user_id     Int
+  user        Users    @relation(fields: [user_id], references: [user_id])
 }
