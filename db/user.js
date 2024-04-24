@@ -22,7 +22,22 @@ const createUser = (userData) => {
     })
 };
 
+const getUser = (username) => {
+  try {
+      return prisma.users.findUnique({
+    where: {
+      username,
+    },
+  });
+  } catch (error) {
+    console.log('here', error)
+    return {};
+  }
+
+};
+
 module.exports = {
   checkUserDetails,
   createUser,
+  getUser,
 };
