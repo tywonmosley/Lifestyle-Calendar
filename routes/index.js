@@ -12,6 +12,7 @@ apiRouter.use(async (req, res, next) => {
     //split "Bearer" and Token
     const token = auth.slice(prefix.length);
     //verify token
+    console.log('token --->', token);
 
     next();
   } catch (error) {

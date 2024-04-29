@@ -9,9 +9,9 @@ authRouter.post("/register", async (req, res) => {
     //get user data from req.body
     const user = req.body;
     //check that username and email are not takin in db
-    const checkNameandEmail = await checkUserDetails(user.username, user.email);
+    const checkNameAndEmail = await checkUserDetails(user.username, user.email);
     // if they are taken --> send error response
-    if (checkNameandEmail) {
+    if (checkNameAndEmail) {
       return res.status(409).send({
         message: "Username or Email is already taken.",
       });
@@ -42,12 +42,12 @@ authRouter.post("/login", async (req, res) => {
     const { username, password } = req.body;
     // get user by username
     const user = await getUser(username);
-    // compare passewor from request with saved hasged password
+    // compare password from request with saved hashtag password
     const comparePassword = await bcrypt.compare(
       password,
       user?.password || "123"
     );
-    //check if user exists and password matach
+    //check if user exists and password match
     if (!user || !comparePassword) {
       return res.status(401).send({ message: "Invalid login credentials" });
     }
